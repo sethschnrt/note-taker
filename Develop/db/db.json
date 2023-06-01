@@ -1,6 +1,1 @@
-[
-    {
-        "title":"Test Title",
-        "text":"Test text"
-    }
-]
+[{"id":1,"title":"Note 1","text":"This is note 1"},{"id":2,"title":"Note 2","text":"This is note 2"},{"title":"TEST NOT","text":"NOT A NOT NOTE NOTE NOTE\n\n","id":"b87890eb-cba7-46a4-9018-052837af2c02"},{"title":"Hit leg day in the am","text":"Barbell squats, leg press, split squats, hip thrusts. 4 sets til failure.\n","id":"e0f3abbc-b994-4d74-b530-e178dcbd957b"},{"title":"How to eat watermelon:","text":"Eat red part. Toss green part in trash.","id":"10a52078-fcb5-4746-9829-47cdba05fd3f"}]

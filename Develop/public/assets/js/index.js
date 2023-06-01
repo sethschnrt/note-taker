@@ -181,3 +181,21 @@ if (window.location.pathname === '/notes') {
 }
 
 getAndRenderNotes();
+
+// Render the existing notes and set up the event listeners
+const renderNotesPage = () => {
+  // Fetch the existing notes from the server and render them in the list
+  getAndRenderNotes();
+
+  // Event listener for when a note in the list is clicked
+  noteList.addEventListener('click', (event) => {
+    const selectedNote = JSON.parse(event.target.parentElement.dataset.note);
+    // Populate the note title and text fields with the selected note
+    noteTitle.value = selectedNote.title;
+    noteText.value = selectedNote.text;
+  });
+};
+
+// Call the function to render the notes page
+renderNotesPage();
+
