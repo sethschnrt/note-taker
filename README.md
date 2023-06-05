@@ -36,4 +36,5 @@ https://sleepy-cliffs-00624.herokuapp.com/
 
 ## Application Screenshot 
 
-image.png
+![image](https://github.com/sethschnrt/note-taker/assets/127680441/3a9a27e5-f853-4c51-af34-427f524ff39f)
+
