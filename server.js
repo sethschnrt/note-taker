@@ -46,7 +46,7 @@ app.get('*', (req, res) => {
     res.sendFile(path.join(__dirname, '/Develop/public/index.html'));
 });
 
-// Starts the server to begin listening
+// Starts the server to begin listensing
 app.listen(PORT, () => {
     console.log(`Server is running on http://localhost:${PORT}`);
 });
